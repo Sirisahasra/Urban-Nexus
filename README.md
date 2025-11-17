@@ -129,16 +129,16 @@ pip install -r requirements.txt
     ```
 
   
- ** *Open your browser and go to: http://127.0.0.1:5000/
+ ->Open your browser and go to: http://127.0.0.1:5000/
   
-  *Homepage will load.
+ ->Homepage will load.
   
-  *Citizens can register and login to use the portal.
+ ->Citizens can register and login to use the portal.
   
-  *Authority members can login using their credentials.**
+ ->Authority members can login using their credentials.**
   
 
-##Usage Guide:
+## Usage Guide
 
   **Citizen Portal**
   
@@ -161,7 +161,7 @@ pip install -r requirements.txt
   
   Dashboard: View requests assigned to your department and manage statuses.
 
-##Notes
+## Notes
 
   The project uses MySQL for storing all citizen and authority data.
   
