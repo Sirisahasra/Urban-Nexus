@@ -1,5 +1,3 @@
-# Urban-Nexus
-
 # Urban Nexus - Smart City Management System
 
 ## Project Overview
@@ -98,36 +96,34 @@ urban_nexus/
 git clone https://github.com/HimaHarika282/Urban-Nexus.git
 cd Urban-Nexus
 ```
-2. Install Dependencies
+### 2. Install Dependencies
+->Install the required Python packages listed in requirements.txt:
 
-Install the required Python packages listed in requirements.txt:
 ```bash
 pip install -r requirements.txt
 ```
-3. Database Setup
+### 3. Database Setup
 
-    ->Make sure MySQL server is running.
-    
-    ->Create the database:
-    ```sql
-    CREATE DATABASE smartcity_db;
-    ```
-    ->Update database credentials in app.py and citizen/route.py if needed:
-    ```python
-    user="root"
-    password="your_mysql_password"
-    host="127.0.0.1"
-    database="smartcity_db"
-    ```
-    ->Create tables manually using models.py or allow your app to create tables automatically (for some ORM setups).
+->Make sure MySQL server is running.
+->Create the database:
+```sql
+CREATE DATABASE smartcity_db;
+```
+->Update database credentials in app.py and citizen/route.py if needed:
 
-4. Running the Application
+```python
+user="root"
+password="your_mysql_password"
+host="127.0.0.1"
+database="smartcity_db"
+```
+->Create tables manually using models.py or allow your app to create tables automatically (for some ORM setups).
 
-    Start the Flask server:
+### 4.Running the Application
+Start the Flask server:
     ``` python
     python app.py
     ```
-
   
  ->Open your browser and go to: http://127.0.0.1:5000/
   
@@ -189,4 +185,4 @@ pip install -r requirements.txt
   2. Gujjula Siri Sahasra
       Email: sirisahasrareddy07@gmail.com
   3. Bhavika Jaiswal
-      Email: 
+      Email: bhavikajaiswal71@gmail.com
