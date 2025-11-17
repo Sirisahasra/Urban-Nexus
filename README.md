@@ -106,37 +106,40 @@ pip install -r requirements.txt
 ```
 3. Database Setup
 
-  ->Make sure MySQL server is running.
-  
-  ->Create the database:
-  ```sql
-  CREATE DATABASE smartcity_db;
-  ```
-  ->Update database credentials in app.py and citizen/route.py if needed:
-  ```python
-  user="root"
-  password="your_mysql_password"
-  host="127.0.0.1"
-  database="smartcity_db"
-  ```
-  ->Create tables manually using models.py or allow your app to create tables automatically (for some ORM setups).
+    ->Make sure MySQL server is running.
+    
+    ->Create the database:
+    ```sql
+    CREATE DATABASE smartcity_db;
+    ```
+    ->Update database credentials in app.py and citizen/route.py if needed:
+    ```python
+    user="root"
+    password="your_mysql_password"
+    host="127.0.0.1"
+    database="smartcity_db"
+    ```
+    ->Create tables manually using models.py or allow your app to create tables automatically (for some ORM setups).
 
 4. Running the Application
 
-  Start the Flask server:
-  ``` python
-  python app.py
-  ```
+    Start the Flask server:
+    ``` python
+    python app.py
+    ```
 
-*Open your browser and go to: http://127.0.0.1:5000/
+  
+ ** *Open your browser and go to: http://127.0.0.1:5000/
+  
+  *Homepage will load.
+  
+  *Citizens can register and login to use the portal.
+  
+  *Authority members can login using their credentials.**
+  
 
-*Homepage will load.
+##Usage Guide:
 
-*Citizens can register and login to use the portal.
-
-*Authority members can login using their credentials.
-
-****Usage Guide:****
   **Citizen Portal**
   
   Signup: Fill in name, date of birth, email, phone, address, zone, password.
@@ -150,6 +153,7 @@ pip install -r requirements.txt
   Bills: View electricity and gas bills, make payments.
   
   Property Management: List properties for sale or view availability.
+  
 
   **Authority Portal**
   
@@ -157,7 +161,7 @@ pip install -r requirements.txt
   
   Dashboard: View requests assigned to your department and manage statuses.
 
-**Notes**
+##Notes
 
   The project uses MySQL for storing all citizen and authority data.
   
